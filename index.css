@@ -1,0 +1,75 @@
+#mainContent{
+  display: flex;
+  flex-direction: column;
+}
+
+#logoDiv {
+  align-self: center;
+}
+#logoDiv img {
+  height: 250px;
+  width: 250px;
+}
+
+#menuContent {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 4px;
+  background-color:rgb(250, 217, 175);
+  gap: 4px;
+}
+
+.categoryTitle{
+  border: 1px solid black;
+  color: #C70039;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+}
+
+.categoryContent {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+}
+
+.categoryItem {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  gap: 4px;
+}
+
+.categoryItemImage {
+  border: 1px solid black;
+  padding: 4px;
+}
+.categoryItemImage img {
+  width: 100%;
+  outline: 1px dashed white;
+}
+
+.categoryName {
+  text-align: center;
+  font-family: 'Roboto Serif', serif;
+  color: #C70039;
+  font-weight: 700;
+  border: 1px solid black;
+}
+
+.categoryPrice {
+  text-align: center;
+  font-family: 'Roboto Serif', serif;
+  border: 1px solid black;
+}
+
+.categoryAction {
+  text-align: center;
+  border: 1px solid black;
+  padding: 4px 0;
+}
+
+#footer {
+  text-align: center;
+}
